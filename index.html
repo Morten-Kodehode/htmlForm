@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        name="firstName"
+        id="firstName"
+        class="inputStyle"
+        placeholder="Enter First Name..."
+      />
+      <input
+        type="text"
+        name="lastName"
+        id="lastName"
+        class="inputStyle"
+        placeholder="Enter Last Name..."
+      />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="inputStyle"
+        placeholder="Enter Email..."
+      />
+      <label for="radio">Choose applicable:</label>
+      <div class="radio">
+        <label for="option1">Very Good</label>
+        <input type="radio" name="radio" id="radio" />
+        <label for="option1">Good</label>
+        <input type="radio" name="radio" id="radio" />
+        <label for="option1">Ok</label>
+        <input type="radio" name="radio" id="radio" />
+        <label for="option1">Bad</label>
+        <input type="radio" name="radio" id="radio" />
+      </div>
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="5"
+        placeholder="Enter your comment..."
+        class="inputStyle"
+      ></textarea>
+      <button type="submit" l>Submit</button>
+    </div>
+  </body>
+</html>

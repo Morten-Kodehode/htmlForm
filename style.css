@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+
+  background-color: gray;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 9px 9px 17px 4px rgba(0, 0, 0, 0.34);
+}
+
+.inputStyle {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
